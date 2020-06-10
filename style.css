@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat: 400,600");
+
+/**
+*
+Body
+*
+**/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif, Roboto;
+  padding: 1em;
+  line-height: 1.6em;
+  background-color: rgb(233, 210, 180);
+}
+
+
+/**
+*
+Navigation Menu
+*
+**/
+.navbar {
+  border: 0.1px solid rgb(223, 156, 156);
+  background-color: rgb(240, 237, 234);
+  color: black;  
+}
+
+.navbar > img {
+  margin-left: 1.1rem;
+  vertical-align: middle;
+  border-style: none;
+  width: 15%;
+  height: 80px;
+  justify-content: center;
+}
+
+/**
+*
+Main
+*
+**/  
+
+.jumbotron {
+  background-color: #4e0f0f;
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.336)), url(https://images.pexels.com/photos/1857157/pexels-photo-1857157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  color: black;
+}
+
+.border {
+  border: 1px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 400px;
+}
+
+/**
+*
+Social Media
+*
+**/
+
+.social a {
+  font-size: 2.5em;
+  padding: 0.8em;
+}
+
+.fa-facebook {
+    color:#3b5998
+} 
+.fa-google-plus-g {
+    color: #dd4b39;
+  }
+.fa-twitter {
+    color:#00aced
+}
+.fa-youtube {
+    color:#bb0000;
+}
+.fa-instagram{
+    color:#517fa4
+}
+
+.fa-facebook:hover,
+.fa-google-plus-g:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover {
+    color: #d5d5d5;
+}
+
+/**
+*
+Media Query
+*
+**/
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
